@@ -3,6 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="accountDao" class="per.bhj.study.domain.impl.AccountDaoImpl"></bean>
+    <!--    通过xml的方式进行装配Bean-->
+    <bean id="accountDao" class="per.bhj.study.domain.impl.AccountDaoImpl"/>
+
+    <bean id="accountService" class="per.bhj.study.service.impl.AccountServiceImpl"/>
 
 </beans>

@@ -44,9 +44,9 @@ public class Main {
         /**
          * 使用BeanFactory，在调用的时候才会实例化Bean
          */
-        Resource resource = new ClassPathResource("applicationContext.xml");
-        BeanFactory beanFactory = new XmlBeanFactory(resource);
-        AccountDao accountDao1 = (AccountDao) beanFactory.getBean("accountDao");
-        accountDao1.showInfo();
+//        Resource resource = new ClassPathResource("applicationContext.xml");
+//        BeanFactory beanFactory = new XmlBeanFactory(resource);
+//        AccountDao accountDao1 = (AccountDao) beanFactory.getBean("accountDao");
+//        accountDao1.showInfo();
     }
 }
